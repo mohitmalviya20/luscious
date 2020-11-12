@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.restaurantMenu > h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 100px;
+  width: 50%;
+  margin: 25px auto;
+  font-family: pacifico;
+  color: rgb(61, 61, 61);
+}
+.restaurantMenu > p {
+  text-align: center;
+  width: 50%;
+  margin: 25px auto;
+  color: rgb(61, 61, 61);
+}
+.restaurantMenu_body {
+  display: flex;
+  overflow-y: scroll;
+  width: 97%;
+  margin: 0 auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  margin-top: 50px;
+}
+.restaurantMenu_body::-webkit-scrollbar {
+  display: none;
+}

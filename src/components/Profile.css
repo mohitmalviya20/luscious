@@ -1,0 +1,43 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile > .avatar {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 3rem;
+}
+.profile > h2 {
+  font-weight: 300;
+  font-size: xxx-large;
+  margin-top: 1rem;
+}
+.profile > h3 {
+  margin-top: 1rem;
+  font-weight: 300;
+}
+.profile_inc {
+  display: flex;
+  margin-top: 3rem;
+}
+.profile_inc > div {
+  background-color: white;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 2rem;
+  margin: 0 3rem;
+}
+.profile_inc > div > h3 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 300;
+}
+.card_container {
+  display: flex;
+  padding: 1rem;
+}
+.card_container > p {
+  font-weight: 200;
+  margin-left: 1rem;
+}
